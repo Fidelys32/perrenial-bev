@@ -1,0 +1,21 @@
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixin" as *;
+
+.names{
+    @include flex(center,center);
+    gap:50px;
+}
+
+.email{
+    @include flex(center,center);
+}
+
+.abt-contact{
+    font-size:30px;
+}
+
+.btn-sub{
+    height: 50px;
+    width: 100px;
+    
+}
