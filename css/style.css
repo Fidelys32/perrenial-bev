@@ -1,0 +1,86 @@
+.head {
+  color: green;
+  font-size: 100px;
+  padding-left: 350px;
+}
+
+.head-img {
+  padding-left: 650px;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+.enjoy {
+  padding-left: 650px;
+  font-size: 45px;
+  color: green;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 50px;
+}
+nav a {
+  text-decoration: none;
+  color: #000;
+  padding: 15px;
+  display: inline-block;
+}
+nav a:hover {
+  background-color: green;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 500px;
+  background-color: yellow;
+}
+
+.names {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 50px;
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.abt-contact {
+  font-size: 30px;
+}
+
+.btn-sub {
+  height: 50px;
+  width: 100px;
+}
+
+.about h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+h1 {
+  font-size: 70px;
+}

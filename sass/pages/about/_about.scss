@@ -1,0 +1,7 @@
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixin" as *;
+.about{
+    h2{
+    @include flex(center,center)
+}
+}

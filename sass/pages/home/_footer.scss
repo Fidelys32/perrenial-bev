@@ -1,0 +1,8 @@
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixin" as *;
+
+footer{
+    @include flex(center,center);
+    gap:500px;
+    background-color: $yellow;
+}

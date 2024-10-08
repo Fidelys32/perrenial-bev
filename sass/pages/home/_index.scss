@@ -1,0 +1,19 @@
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixin" as *;
+.head{
+    color:$green;
+    font-size:100px;
+    padding-left:350px;
+}
+
+.head-img{
+        padding-left: 650px; 
+}
+body{
+    background-color:antiquewhite;
+}
+.enjoy{
+    padding-left: 650px;
+    font-size: 45px;
+    color: $green;
+}
