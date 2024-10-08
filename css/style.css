@@ -92,6 +92,10 @@ footer {
   gap: 50px;
 }
 
+.blanks {
+  padding-left: 46em;
+}
+
 .abt-contact {
   font-size: 30px;
 }
@@ -99,4 +103,10 @@ footer {
 .btn-sub {
   height: 50px;
   width: 100px;
+  margin-left: 55em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: green;
+  color: yellow;
+  border: none;
 }
