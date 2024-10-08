@@ -2,20 +2,45 @@
 @use "../../utilities/mixin" as *;
 
 .names{
-    @include flex(center,center);
+    display: flex;
+    align-items: center;
     gap:50px;
+    margin-left: 46em;
+}
+.n{
+    width: 18em;
+
 }
 
-.email{
-    @include flex(center,center);
+.plz{
+    color: $green;
+    padding-left: 39em;
+}
+
+.blanks{
+    padding-left: 46em;
 }
 
 .abt-contact{
     font-size:30px;
 }
+.b{
+    width: 40em;
+}
+
+.messo{
+    height: 100px;
+    width: 40em;
+}
 
 .btn-sub{
     height: 50px;
     width: 100px;
+    margin-left: 55em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: $green;
+    color: $yellow;
+    border: none;
     
 }

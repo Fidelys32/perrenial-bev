@@ -8,6 +8,19 @@
   padding-left: 650px;
 }
 
+.abt-enjoy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 100px;
+}
+
+.unsplash {
+  border-radius: 100px;
+}
+
 body {
   background-color: antiquewhite;
 }
@@ -16,6 +29,29 @@ body {
   padding-left: 650px;
   font-size: 45px;
   color: green;
+}
+
+.why {
+  display: inline-block;
+  padding-left: 700px;
+  margin-bottom: 50px;
+}
+
+.read {
+  height: 50px;
+  width: 100px;
+  background-color: green;
+  color: yellow;
+  border: none;
+}
+
+.us {
+  font-size: 40px;
+  color: green;
+}
+
+.we {
+  font-size: 30px;
 }
 
 nav ul {
@@ -49,26 +85,103 @@ footer {
 
 .names {
   display: flex;
-  justify-content: center;
   align-items: center;
-  flex-direction: row;
-  flex-wrap: nowrap;
   gap: 50px;
+  margin-left: 46em;
 }
 
-.email {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: nowrap;
+.n {
+  width: 18em;
+}
+
+.plz {
+  color: green;
+  padding-left: 39em;
+}
+
+.blanks {
+  padding-left: 46em;
 }
 
 .abt-contact {
   font-size: 30px;
 }
 
+.b {
+  width: 40em;
+}
+
+.messo {
+  height: 100px;
+  width: 40em;
+}
+
 .btn-sub {
   height: 50px;
   width: 100px;
+  margin-left: 55em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: green;
+  color: yellow;
+  border: none;
+}
+
+.create {
+  padding-left: 45em;
+}
+
+.acc {
+  color: green;
+  padding-left: 30em;
+}
+
+.sign {
+  width: 40em;
+  border-radius: 25px;
+  height: 40px;
+  padding-left: 30px;
+  border: none;
+}
+
+.i {
+  padding-left: 50em;
+}
+
+.s {
+  height: 50px;
+  width: 30em;
+  margin-left: 60em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: green;
+  color: yellow;
+  border: none;
+  border-radius: 25px;
+}
+
+.h1 {
+  background-color: green;
+  color: yellow;
+  width: 15em;
+  padding-left: 50px;
+  margin-left: 30em;
+}
+
+.t {
+  width: 40em;
+  border-radius: 25px;
+  border: none;
+  height: 30px;
+  margin-left: 55em;
+  padding-left: 30px;
+}
+
+.y {
+  margin-bottom: 20px;
+}
+
+.wel {
+  font-size: 1.5em;
+  padding-left: 32em;
 }
