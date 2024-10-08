@@ -2,8 +2,19 @@
 @use "../../utilities/mixin" as *;
 
 .names{
-    @include flex(center,center);
+    display: flex;
+    align-items: center;
     gap:50px;
+    margin-left: 46em;
+}
+.n{
+    width: 18em;
+
+}
+
+.plz{
+    color: $green;
+    padding-left: 39em;
 }
 
 .blanks{
@@ -12,6 +23,14 @@
 
 .abt-contact{
     font-size:30px;
+}
+.b{
+    width: 40em;
+}
+
+.messo{
+    height: 100px;
+    width: 40em;
 }
 
 .btn-sub{

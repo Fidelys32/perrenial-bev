@@ -1,0 +1,33 @@
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixin" as *;
+
+.create{
+    padding-left: 45em;}
+
+.acc{
+    color: $green;
+    padding-left: 30em;
+}
+
+.sign{
+width: 40em;
+border-radius: 25px;
+height: 40px;
+padding-left: 30px;
+border: none;
+}
+
+.i{
+    padding-left: 50em;
+}
+.s{
+    height: 50px;
+    width: 30em;
+    margin-left: 60em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: $green;
+    color: $yellow;
+    border: none;
+    border-radius: 25px;
+}
