@@ -41,7 +41,7 @@ body {
   height: 50px;
   width: 100px;
   background-color: green;
-  color: yellow;
+  color: brown;
   border: none;
 }
 
@@ -85,7 +85,7 @@ footer {
   flex-direction: row;
   flex-wrap: nowrap;
   gap: 500px;
-  background-color: yellow;
+  background-color: brown;
 }
 
 .names {
@@ -128,7 +128,7 @@ footer {
   margin-top: 30px;
   margin-bottom: 30px;
   background-color: green;
-  color: yellow;
+  color: brown;
   border: none;
 }
 
@@ -160,14 +160,14 @@ footer {
   margin-top: 30px;
   margin-bottom: 30px;
   background-color: green;
-  color: yellow;
+  color: brown;
   border: none;
   border-radius: 25px;
 }
 
 .h1 {
   background-color: green;
-  color: yellow;
+  color: brown;
   width: 15em;
   padding-left: 50px;
   margin-left: 30em;
