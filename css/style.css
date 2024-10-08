@@ -73,6 +73,11 @@ nav a:hover {
   background-color: green;
 }
 
+@media screen and (max-width: 600px) {
+  nav {
+    font-size: large;
+  }
+}
 footer {
   display: flex;
   justify-content: center;
