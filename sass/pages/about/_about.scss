@@ -18,9 +18,34 @@ nav{
         }
     }
 }
-
+ h2{
+    @include flex(center,center);
+    font-size: 30px;
+    color: $green;
+    
+}
 .about{
-    h2{
-    @include flex(center,center)
-}
-}
+    padding: 30px 10px;
+    margin-left:2% ;
+    h3{
+        font-size: 30px;
+        color: $yellow;
+        background-color: $green;
+        text-align: center;
+    }
+    }
+    .why{
+        padding-bottom: 30px;
+    }
+    p{
+        padding-bottom: 20px;
+    }
+    .about-us{
+        // display: flex;
+      @include flex (center,center)
+    }
+    footer{
+        @include flex(center,center);
+        gap:500px;
+        background-color: $yellow;
+    }
