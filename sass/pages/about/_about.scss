@@ -33,14 +33,14 @@ nav{
         background-color: $green;
         text-align: center;
     }
-    }
-    .why{
-        padding-bottom: 30px;
-    }
-    p{
-        padding-bottom: 20px;
-    }
-    .about-us{
+    // }
+    // .why{
+    //     padding-bottom: 30px;
+     }
+    // // p{
+    //     padding-bottom: 20px;
+    // }
+     .about-us{
         // display: flex;
       @include flex (center,center)
     }

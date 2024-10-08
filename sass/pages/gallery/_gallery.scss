@@ -20,7 +20,7 @@ nav{
         }
     }
 }
-h3{
+h4{
     font-size: 20px;
     color:$green;
     padding-left: 500px;
@@ -28,6 +28,32 @@ h3{
 .img{
     @include flex(center,center);
     margin-left: 10%;
-    margin-left: 10%;
-    gap: 30px;
+    margin-right: 10%;
+    gap: 40px;
+}
+.jarritos{
+    @include flex(center,center);
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 40px;
+}
+.olena{
+    @include flex(center,center);
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 40px;
+}
+.anhdangihi{
+    @include flex(center,center);
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 40px;
+}
+.yearone{
+    margin-left: 40%;
+}
+footer{
+    @include flex(center,center);
+    gap:500px;
+    background-color: $yellow;
 }

@@ -18,3 +18,14 @@ nav{
         }
     }
 }
+.menu{
+    @include flex(space-between,center);
+    margin: 0 auto;
+}
+.juices{
+    border-radius: 90px;
+}
+.value{
+    text-align: center;
+}
+

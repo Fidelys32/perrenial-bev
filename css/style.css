@@ -113,14 +113,6 @@ h2 {
   text-align: center;
 }
 
-.why {
-  padding-bottom: 30px;
-}
-
-p {
-  padding-bottom: 20px;
-}
-
 .about-us {
   display: flex;
   justify-content: center;
@@ -158,6 +150,23 @@ nav a:hover {
   background-color: green;
 }
 
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 0 auto;
+}
+
+.juices {
+  border-radius: 90px;
+}
+
+.value {
+  text-align: center;
+}
+
 nav ul {
   list-style: none;
   display: flex;
@@ -177,7 +186,7 @@ nav a:hover {
   background-color: green;
 }
 
-h3 {
+h4 {
   font-size: 20px;
   color: green;
   padding-left: 500px;
@@ -190,6 +199,53 @@ h3 {
   flex-direction: row;
   flex-wrap: nowrap;
   margin-left: 10%;
-  margin-left: 10%;
-  gap: 30px;
+  margin-right: 10%;
+  gap: 40px;
+}
+
+.jarritos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-left: 10px;
+  margin-right: 10px;
+  gap: 40px;
+}
+
+.olena {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-left: 10px;
+  margin-right: 10px;
+  gap: 40px;
+}
+
+.anhdangihi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-left: 10px;
+  margin-right: 10px;
+  gap: 40px;
+}
+
+.yearone {
+  margin-left: 40%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 500px;
+  background-color: yellow;
 }
