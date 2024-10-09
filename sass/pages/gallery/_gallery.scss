@@ -23,35 +23,37 @@ nav{
 h4{
     font-size: 20px;
     color:$green;
-    // padding-left: 500px;
+     padding-left: 500px;
 }
 .img{
-    @include flex(space-between,center);
+    @include flex(center,center);
     margin-left: 10%;
     margin-right: 10%;
      gap: 40px;
 }
 .jarritos{
-    @include flex(space-between,center);
+    @include flex(center,center);
     margin-left: 10px;
     margin-right: 10px;
-    // gap: 40px;
+     gap: 40px;
 }
 .olena{
-     @include flex(space-between,center);
+     @include flex(center,center);
     margin-left: 10px;
     margin-right: 10px;
-    // gap: 40px;
+     gap: 40px;
 }
 .anhdangihi{
-    @include flex(space-between,center);
+    @include flex(center,center);
     margin-left: 10px;
     margin-right: 10px;
-    // gap: 40px;
+    gap: 40px;
 }
 .yearone{
-    @include flex(space-between,center);
-    // margin-left: 5%;
+    @include flex(center,center);
+     margin-left: 10px;
+     margin-right: 10px;
+     gap: 40px;
     
  }
 footer{
