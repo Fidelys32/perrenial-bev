@@ -1,16 +1,29 @@
 @use "../../utilities/variables" as *;
 @use "../../utilities/mixin" as *;
+.head{
+    color:$green;
+    // font-size:100px;
+    align-items: center;
+    justify-content: centert;
+    text-align:center;
+}
+
+// .sign-log{
+//     align-items: center;
+//     display: flex;
+// }
+
 nav{
     ul{ list-style: none;
         @include flex(center,center);
-        gap:50px;
+        // gap:50px;
         
     }
     
 
     a{ text-decoration: none;
         color: #000;
-        padding: 15px;
+        // padding: 15px;
         display: inline-block;
         &:hover {
             background-color: $green;
@@ -27,5 +40,27 @@ nav{
 }
 .value{
     text-align: center;
+}
+
+
+// MEDIA QUARIES
+
+@media screen and (max-width:600px ){
+    .head{
+        font-size: 20px;
+    }
+
+    .index{
+        li{
+            font-size: 10px;
+        }
+    }
+
+    .menu{
+        width: 100%;
+        flex-direction: column;
+    }
+
+
 }
 

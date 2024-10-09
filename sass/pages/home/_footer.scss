@@ -3,6 +3,6 @@
 
 footer{
     @include flex(center,center);
-    gap:500px;
+    // gap:500px;
     background-color: $yellow;
 }
