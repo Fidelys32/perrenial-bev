@@ -1,0 +1,41 @@
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixin" as *;
+ h2{
+    @include flex(center,center);
+    font-size: 30px;
+    color: $green;
+    padding-top: 20px;
+
+    
+}
+.about{
+    padding: 30px 10px;
+    margin-left:2% ;
+    h3{
+        font-size: 30px;
+        color: $yellow;
+        text-align: center;
+        border-radius: 30px;
+    }
+     }
+     p{
+         font-size: 20px;
+     }
+     .why{
+        padding-right: 20px
+     }
+     .about-us{
+        // display: flex;
+      @include flex (center,center)
+    }
+    footer{
+        @include flex(center,center);
+        gap:500px;
+        background-color: $yellow;
+    }
+    // media queries
+    @media screen and (max-width: 600px) {
+        .about-us{
+            flex-direction: column;
+        }
+    }

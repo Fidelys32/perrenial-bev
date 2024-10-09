@@ -229,7 +229,6 @@ footer a {
 
 .plz {
   color: green;
-  padding-left: 39em;
 }
 
 .abt-contact {
@@ -349,5 +348,205 @@ footer a {
   }
   .about-quick-links {
     display: none;
+  }
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  font-size: 30px;
+  color: green;
+  padding-top: 20px;
+}
+
+.about {
+  padding: 30px 10px;
+  margin-left: 2%;
+}
+.about h3 {
+  font-size: 30px;
+  color: brown;
+  text-align: center;
+  border-radius: 30px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.why {
+  padding-right: 20px;
+}
+
+.about-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 500px;
+  background-color: brown;
+}
+
+@media screen and (max-width: 600px) {
+  .about-us {
+    flex-direction: column;
+  }
+}
+h4 {
+  font-size: 20px;
+  color: green;
+  padding-left: 500px;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-left: 10%;
+  margin-right: 10%;
+  gap: 40px;
+}
+
+.jarritos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-left: 11px;
+  margin-right: 11px;
+  gap: 40px;
+}
+
+.olena {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-left: 10px;
+  margin-right: 10px;
+  gap: 40px;
+}
+
+.anhdangihi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-left: 10px;
+  margin-right: 10px;
+  gap: 40px;
+}
+
+.yearone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-left: 10px;
+  margin-right: 10px;
+  gap: 40px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 500px;
+  background-color: brown;
+}
+
+@media screen and (max-width: 600px) {
+  .olena {
+    flex-direction: column;
+  }
+  .jarritos {
+    flex-direction: column;
+  }
+  .yearone {
+    flex-direction: column;
+  }
+  .anhdangihi {
+    flex-direction: column;
+  }
+  .img {
+    flex-direction: column;
+  }
+}
+.head {
+  color: green;
+  align-items: center;
+  justify-content: centert;
+  text-align: center;
+}
+
+.drinks {
+  background-color: aliceblue;
+  margin-bottom: 30px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+nav a {
+  text-decoration: none;
+  color: #000;
+  display: inline-block;
+}
+nav a:hover {
+  background-color: green;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 40px;
+  margin: 0 auto;
+}
+
+.juices {
+  border-radius: 90px;
+}
+
+.value {
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .head {
+    font-size: 20px;
+  }
+  .index li {
+    font-size: 10px;
+  }
+  .menu {
+    width: 100%;
+    flex-direction: column;
   }
 }
