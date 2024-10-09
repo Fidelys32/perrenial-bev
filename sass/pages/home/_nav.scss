@@ -1,22 +1,107 @@
 @use "../../utilities/variables" as *;
 @use "../../utilities/mixin" as *;
 
-
+header{
+    align-items: center;
+    justify-content: center;
+    // text-align: center;
+}
 nav{
     ul{ list-style: none;
-        @include flex(center,center);
-        gap:50px;
+        // @include flex(center,center);
+        // gap:50px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
         
     }
     
 
     a{ text-decoration: none;
         color: #000;
-        padding: 15px;
+        padding: 5px 30px;
         display: inline-block;
         &:hover {
             background-color: $green;
 
         }
     }
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap:30px
+}
+.nav-content{
+    display:flex;
+    @include flex (center,center);
+    // gap:20%;
+    // margin-right: 20px;
+
+}
+
+
+.reg{
+    display: flex;
+    gap:30px;
+    ul{
+        display: flex;
+    }
+}
+
+
+// madia query
+@media  screen and (max-width:600px) {
+    .container{
+        width:80%;
+        margin: 0 auto;
+        margin-left: 30%;
+        margin-right: 50%;
+        ul{.fa-bars{
+            margin-right: 300px;
+        
+        }
+
+            button{
+                display: none;
+            }
+            li{
+                a{
+                    display: none;
+                }
+            }
+        }
+
+    }
+    
+
+.fa-bars{
+
+    display: inline-block;}
+
+    .head{
+        font-size: 30px;
+    }
+    .enjoy{
+        font-size: 30px;
+    }
+    .spe{
+        font-size: 20px;
+    }
+
+
+    #logo{
+        width: 70px;
+        
+   }
+
+   .reg{
+    button{
+        padding: 2px;
+        font-size: 10px;
+    }
+   }
 }

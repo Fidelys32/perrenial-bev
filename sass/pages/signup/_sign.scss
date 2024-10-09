@@ -1,33 +1,58 @@
 @use "../../utilities/variables" as *;
 @use "../../utilities/mixin" as *;
 
-.create{
-    padding-left: 45em;}
+//  .create{
+//     padding-left: 45em;}
 
 .acc{
     color: $green;
-    padding-left: 30em;
+    
+
+
+
 }
 
 .sign{
 width: 40em;
 border-radius: 25px;
 height: 40px;
-padding-left: 30px;
-border: none;
+padding-right: 30px;
+
 }
 
-.i{
-    padding-left: 50em;
-}
+
+
 .s{
     height: 50px;
     width: 30em;
-    margin-left: 60em;
+   // margin-left: 60em;
     margin-top: 30px;
     margin-bottom: 30px;
     background-color: $green;
-    color: $yellow;
-    border: none;
+    color:white;
     border-radius: 25px;
 }
+
+
+//media querries
+
+@media screen and (max-width:600px) {
+   .create{
+   // @include flex(center,center);
+   flex-direction: column;
+      } 
+   .cre{
+    flex-direction: column;
+   }
+   .sign{
+    width: 20em;
+   }
+   .about-quick-links{
+    display: none;
+   }
+
+   .s{
+    height: 30px;
+    width: 10em;
+   }
+    }

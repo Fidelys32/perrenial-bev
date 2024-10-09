@@ -3,6 +3,16 @@
 
 footer{
     @include flex(center,center);
-    gap:500px;
-    background-color: $yellow;
+    gap:400px;
+    background-color: $green;
+
+    ul{ list-style: none;
+        gap:50px;
+        
+    }
+    
+
+    a{ text-decoration: none;
+        color: black;        
+    }
 }
