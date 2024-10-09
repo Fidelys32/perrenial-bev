@@ -90,6 +90,7 @@ h2 {
   flex-wrap: nowrap;
   font-size: 30px;
   color: green;
+  padding-top: 20px;
 }
 
 .about {
@@ -98,9 +99,11 @@ h2 {
 }
 .about h3 {
   font-size: 30px;
-  color: green;
-  background-color: yellow;
+  color: yellow;
+  background-color: green;
   text-align: center;
+  border: 1px solid green;
+  border-radius: 30px;
 }
 
 p {
