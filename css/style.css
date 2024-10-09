@@ -194,7 +194,7 @@ h4 {
 
 .img {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -205,35 +205,32 @@ h4 {
 
 .jarritos {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-direction: row;
   flex-wrap: nowrap;
   margin-left: 10px;
   margin-right: 10px;
-  gap: 40px;
 }
 
 .olena {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-direction: row;
   flex-wrap: nowrap;
   margin-left: 10px;
   margin-right: 10px;
-  gap: 40px;
 }
 
 .anhdangihi {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-direction: row;
   flex-wrap: nowrap;
   margin-left: 10px;
   margin-right: 10px;
-  gap: 40px;
 }
 
 .yearone {

@@ -26,28 +26,28 @@ h4{
     padding-left: 500px;
 }
 .img{
-    @include flex(center,center);
+    @include flex(space-between,center);
     margin-left: 10%;
     margin-right: 10%;
-    gap: 40px;
+     gap: 40px;
 }
 .jarritos{
-    @include flex(center,center);
+    @include flex(space-between,center);
     margin-left: 10px;
     margin-right: 10px;
-    gap: 40px;
+    // gap: 40px;
 }
 .olena{
-    @include flex(center,center);
+     @include flex(space-between,center);
     margin-left: 10px;
     margin-right: 10px;
-    gap: 40px;
+    // gap: 40px;
 }
 .anhdangihi{
-    @include flex(center,center);
+    @include flex(space-between,center);
     margin-left: 10px;
     margin-right: 10px;
-    gap: 40px;
+    // gap: 40px;
 }
 .yearone{
     margin-left: 40%;
@@ -57,3 +57,9 @@ footer{
     gap:500px;
     background-color: $yellow;
 }
+// media queries
+//  @media  screen and (max-width:600px) {
+//     .olena{
+//      display: none;
+//      }
+//   }|
