@@ -6,15 +6,14 @@
     background-color: $green;
     color: $yellow;
     width: 15em;
-    padding-left: 50px;
-    margin-left:30em ;
+   // padding-left: 50px;
+    //margin-left:30em ;
 }
 .t{
     width: 40em;
     border-radius: 25px;
-    border: none;
     height: 30px;
-    margin-left: 55em;
+    //margin-left: 55em;
     padding-left: 30px;
 }
 .y{
@@ -23,5 +22,15 @@
 
 .wel{
     font-size: 1.5em;
-    padding-left: 32em;
+   // padding-left: 32em;
+}
+
+//media querries
+@media  screen and (max-width:600px) {
+.t{
+    width: 25em;
+}
+.about-quick-links{
+    display: none;
+}
 }

@@ -2,12 +2,12 @@
 @use "../../utilities/mixin" as *;
 .head{
     color:$green;
-    font-size:100px;
-    padding-left:350px;
+    font-size:70px;
+    @include flex(center,center);
 }
 
 .head-img{
-        padding-left: 650px; 
+    padding-left: 670px;
 }
 
 .abt-enjoy{
@@ -20,22 +20,24 @@
 }
 
 .enjoy{
-    padding-left: 650px;
+    @include flex(center,center);
     font-size: 45px;
     color: $green;
 }
 .why{
-    display: inline-block;
-    padding-left: 700px;
-    margin-bottom: 50px;
+    @include flex(center,center);
+    gap: 100px;
 
 }
+
+
 .read{
     height: 50px;
     width: 100px;
     background-color: $green;
     color: $yellow;
     border: none;
+    margin-left: 45%;
 }
 
 .us{
@@ -45,4 +47,69 @@
 
 .we{
     font-size: 30px;
+}
+.spe{
+    @include flex(center,center);
+    color: $green;
+    font-size: 50px;
+}
+ .un{
+    background-color:aliceblue ;
+ }
+
+//  media query
+@media screen and (max-width:600px) {
+    .abt-enjoy{
+        flex-direction: column;
+    }
+    .why{
+        flex-direction: column;
+    
+    .un{
+        margin-bottom: 30%;
+    }
+    }
+    .hero-section-image{
+        // display:flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 10px;
+        .head-img{
+            margin-right: 90px;
+            // width:100px;
+            align-items: center;
+            justify-content: center;
+            display:none
+        }
+    }
+
+    .uss-right{
+        .we{
+            font-size: 14px;
+        }
+        // .us{
+
+        // }
+    }
+
+    .read{
+        margin-bottom: 20px; 
+        
+
+    }
+    // footer
+    .footer{
+        .about-quick-links{
+            display:none
+        }
+        flex-direction: column;
+
+        gap:20px;
+        .pin{
+            margin-left: 20%;
+        }
+    }
+    .enjoy{
+        font-size: 10px;
+    }
 }
