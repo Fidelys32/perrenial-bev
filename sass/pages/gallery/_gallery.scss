@@ -49,9 +49,11 @@ h4{
     margin-right: 10px;
     // gap: 40px;
 }
-// .yearone{
+.yearone{
+    @include flex(space-between,center);
     // margin-left: 5%;
-// }
+    
+ }
 footer{
     @include flex(center,center);
     gap:500px;
