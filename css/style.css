@@ -10,6 +10,8 @@
 
 .head-img {
   height: 500px;
+  display: flex;
+  padding-left: 20em;
 }
 
 .abt-enjoy {
@@ -404,9 +406,13 @@ footer {
   }
 }
 h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
   font-size: 20px;
   color: green;
-  padding-left: 500px;
 }
 
 .img {

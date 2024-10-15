@@ -1,9 +1,10 @@
 @use "../../utilities/variables" as *;
 @use "../../utilities/mixin" as *;
 h4{
+    @include flex(center,center);
     font-size: 20px;
     color:$green;
-     padding-left: 500px;
+     
 }
 .img{
     @include flex(center,center);
